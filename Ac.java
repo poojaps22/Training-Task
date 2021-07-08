@@ -2,6 +2,14 @@ package pt1;
 
 public class Ac extends ElectronicDevice{
 
+	private Bluetooth b;
+	
+	public Bluetooth getB() {
+		return b;
+	}
+	public void setB(Bluetooth b) {
+		this.b = b;
+	}
 	public Ac()
 	{
 		super();

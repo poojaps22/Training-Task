@@ -2,6 +2,14 @@ package pt1;
 
 public class Laptop extends ElectronicDevice {
 
+	private Camera cam;
+	
+	public Camera getCam() {
+		return cam;
+	}
+	public void setCam(Camera cam) {
+		this.cam = cam;
+	}
 	public Laptop()
 	{
 		super();
